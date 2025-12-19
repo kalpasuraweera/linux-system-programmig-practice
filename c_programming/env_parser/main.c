@@ -5,6 +5,7 @@
 //TODO: add funnctions
 //TODO: create struct for the key value like in Go
 //TODO: make this convertable to other types like json
+//TODO: handle comments
 int main(int argc, char *argv[]){
   FILE* in_file = fopen("test.env", "r");
   if(in_file == NULL){
